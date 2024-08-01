@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Trusted Travel Agent</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="custom-nav">
+        <div class="logo">Moqups</div>
+        <ul>
+          <li><a href="#banner" class="nav-link">Home</a></li>
+          <li><a href="#our-package" class="nav-link">Our Package</a></li>
+          <li><a href="#call" class="nav-link">Call Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="banner" class="intro">
+        <h1>Your Trusted Travel Agent's</h1>
+        <p>Your happiness is our hapiness</p>
+      </section>
+
+      <section class="content">
+        <div class="testimonial">
+          <div class="image-placeholder">
+            <img src="https://placehold.co/600x400" alt="image-placeholder" />
+          </div>
+          <div class="testimonial-content">
+            <p style="color: #798da3; font-weight: lighter; font-style: italic">
+              “Liburan jadi menyenangkan bersama Travel Agentku.”
+            </p>
+            <div class="author-tables">
+              <table>
+                <tr>
+                  <th rowspan="2">
+                    <img
+                      class="author-image"
+                      src="https://placehold.co/50x50"
+                      alt="Author"
+                    />
+                  </th>
+                  <td>
+                    <p class="name"><strong>Florence Hughes</strong></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    style="
+                      color: #798da3;
+                      font-weight: lighter;
+                      font-style: italic;
+                    "
+                  >
+                    Ibu Rumah Tangga, 28
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <section class="features">
+              <p>
+                <strong> Testimonial & Reviews </strong>
+              </p>
+            </section>
+            <div>
+              <table class="features-tables">
+                <tr>
+                  <th rowspan="2" class="feature-row">
+                    <img
+                      class="author-image"
+                      src="https://placehold.co/50x50"
+                      alt="Author"
+                    />
+                  </th>
+                </tr>
+                <tr>
+                  <td class="feature-row">
+                    Trip yang menyenangkan. Saya akan kembali menggunakan jasa
+                    travel ini kembali untuk liburan saya.
+                  </td>
+                </tr>
+                <tr>
+                  <th rowspan="2" class="feature-row">
+                    <img
+                      class="author-image"
+                      src="https://placehold.co/50x50"
+                      alt="Author"
+                    />
+                  </th>
+                </tr>
+                <tr>
+                  <td class="feature-row">
+                    Layanan dan Service yang memuaskan. Terima kasih
+                  </td>
+                </tr>
+                <tr>
+                  <th rowspan="2" class="feature-row">
+                    <img
+                      class="author-image"
+                      src="https://placehold.co/50x50"
+                      alt="Author"
+                    />
+                  </th>
+                </tr>
+                <tr>
+                  <td class="feature-row">
+                    WHAT A TRIPP!!! Fast and satisfying service.
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <div class="sub-contact-form">
+            <h2>Hubungi Kami</h2>
+            <p>
+              Sales akan menghubungi anda 1x24 jam setelah data kami terima.
+            </p>
+          </div>
+          <form>
+            <label for="name">Your Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="First and last name"
+            />
+
+            <label for="email">Email Address:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@email.com"
+            />
+
+            <label for="interest">What are you interested in?</label>
+            <select id="interest" name="interest">
+              <option value="">Select option</option>
+              <option value="option1">Bali</option>
+              <option value="option2">Japan</option>
+              <option value="option3">Singapore</option>
+              <option value="option4">Bandung</option>
+              <option value="option5">Surabaya</option>
+              <option value="option6">Jakarta</option>
+            </select>
+
+            <button type="submit" onsubmit="return validateForm()">SEND</button>
+          </form>
+        </div>
+      </section>
+      <section id="our-package">
+        <div class="our-package-title">
+          <h1>Our Package</h1>
+        </div>
+        <div class="our-package-content">
+          <div class="package-table-container">
+            <table>
+              <tr>
+                <th>
+                  <img
+                    class="author-image"
+                    src="https://placehold.co/50x50"
+                    alt=""
+                  />
+                </th>
+                <td class="">Bali</td>
+              </tr>
+              <tr>
+                <th></th>
+                <td class="feature-row">
+                  Travel dan wisata di Bali. Kunjungi cagar budaya dan kuliner
+                  yang menarik
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="package-table-container">
+            <table>
+              <tr>
+                <th>
+                  <img
+                    class="author-image"
+                    src="https://placehold.co/50x50"
+                    alt=""
+                  />
+                </th>
+                <td class="">Japan</td>
+              </tr>
+              <tr>
+                <th></th>
+                <td class="feature-row">
+                  Travel dan wisata di Japan. Kunjungi cagar budaya dan kuliner
+                  yang menarik
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="package-table-container">
+            <table>
+              <tr>
+                <th>
+                  <img
+                    class="author-image"
+                    src="https://placehold.co/50x50"
+                    alt=""
+                  />
+                </th>
+                <td class="">Singapore</td>
+              </tr>
+              <tr>
+                <th></th>
+                <td class="feature-row">
+                  Travel dan wisata di Singapore. Kunjungi cagar budaya dan
+                  kuliner yang menarik
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="strips"></div>
+        <div class="our-package-content">
+          <div class="package-table-container">
+            <table>
+              <tr>
+                <th>
+                  <img
+                    class="author-image"
+                    src="https://placehold.co/50x50"
+                    alt=""
+                  />
+                </th>
+                <td class="">Bandung</td>
+              </tr>
+              <tr>
+                <th></th>
+                <td class="feature-row">
+                  Travel dan wisata di Bandung. Kunjungi cagar budaya dan
+                  kuliner yang menarik
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="package-table-container">
+            <table>
+              <tr>
+                <th>
+                  <img
+                    class="author-image"
+                    src="https://placehold.co/50x50"
+                    alt=""
+                  />
+                </th>
+                <td class="">Surabaya</td>
+              </tr>
+              <tr>
+                <th></th>
+                <td class="feature-row">
+                  Travel dan wisata di Surabaya. Kunjungi cagar budaya dan
+                  kuliner yang menarik
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="package-table-container">
+            <table>
+              <tr>
+                <th>
+                  <img
+                    class="author-image"
+                    src="https://placehold.co/50x50"
+                    alt=""
+                  />
+                </th>
+                <td class="">Jakarta</td>
+              </tr>
+              <tr>
+                <th></th>
+                <td class="feature-row">
+                  Travel dan wisata di Jakarta. Kunjungi cagar budaya dan
+                  kuliner yang menarik
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+      <section id="call">
+        <h1>Siap Merencanakan Perjalanan Impian Anda?</h1>
+        <p>
+          Jangan ragu untuk menghubungi kami jika anda memiliki pertanyaan atau
+          membutuhkan bantuan untuk merencanakan perjalanan anda. Tim ahli kami
+          siap membantu anda di setiap langkah.
+        </p>
+        <button type="button" href="#banner">Hubungi Kami</button>
+      </section>
+    </main>
+    <footer>
+      <div className="footer-container">
+        <div id="credits">
+          <h3>Moqups</h3>
+        </div>
+        <div id="copyright">
+          <p>Terms of Service <span>Privacy Policy</span></p>
+          <span>Copyright&copy; 2019 Moqups</span>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
